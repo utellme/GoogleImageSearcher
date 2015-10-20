@@ -17,10 +17,10 @@ public class SearchSettings implements Serializable{
     public SearchSettings() {
 
         //initialize to null as default values
-        sImageSize = null;
-        sImageType = null;
-        sColorFilter = null;
-        sSiteFilter = null;
+        sImageSize = "";
+        sImageType = "";
+        sColorFilter = "";
+        sSiteFilter = "";
 
     }
 

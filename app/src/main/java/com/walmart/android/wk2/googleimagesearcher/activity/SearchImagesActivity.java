@@ -132,7 +132,7 @@ public class SearchImagesActivity extends AppCompatActivity {
     private void getItemsfromGoogle(int offset, final boolean bClick)
     {
 
-        if(!isNetworkAvailable()) {
+        if(isNetworkAvailable()==false) {
 
             etText.setText("!!! Search failed!. No Network Connection!!!");
             return;
